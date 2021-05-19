@@ -7,8 +7,6 @@
 /* End Variables */
 /* Global Rules */
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -426,6 +424,8 @@ header nav .form i:hover {
   padding: 15px 25px;
   font-weight: normal;
   font-size: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 22px auto;
   color: white;
@@ -767,6 +767,8 @@ header nav .form i:hover {
 .pricing .foot {
   border: 1px solid var(--main-color);
   padding: 10px 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 30px auto;
 }
@@ -783,6 +785,8 @@ header nav .form i:hover {
   text-align: center;
   text-decoration: none;
   padding: 14px 50px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 10px auto;
   border: 1px solid var(--main-color);
