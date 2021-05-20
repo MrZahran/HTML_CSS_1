@@ -225,9 +225,13 @@ header nav .form i:hover {
 @media (max-width: 767px) {
   .landing .text {
     width: 100%;
+    padding: 40px 15px;
   }
   .landing .text .content {
     width: 100%;
+  }
+  .landing i {
+    display: none;
   }
 }
 .landing .text .content h2 {
